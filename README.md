@@ -3,6 +3,9 @@
 ## Instale as Dependências
 #### npm install
 
+## Inicie a Aplicação:
+#### npm start
+
 ## URLs
 #### Local:  
  http://localhost:3000
