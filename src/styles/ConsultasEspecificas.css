@@ -1,0 +1,85 @@
+/* src/styles/ConsultasEspecificas.css */
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(50% - 22px);
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e9f5f9;
+    border: 1px solid #d1e7f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resultado h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.resultado-content {
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+}
+
+.resultado-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resultado-content li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.resultado-content pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+.resultado-content p {
+    font-size: 16px;
+    color: #333;
+}

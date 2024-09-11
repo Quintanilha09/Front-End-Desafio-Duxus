@@ -1,0 +1,74 @@
+/* Define a largura máxima para o conteúdo principal da aplicação */
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Adiciona um fundo claro e espaçamento ao redor da aplicação */
+.app-background {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Estiliza a navegação principal */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+/* Estiliza os botões principais na página inicial */
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Define a margem e o espaçamento para os títulos principais */
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+/* Estiliza as mensagens de erro */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
