@@ -1,9 +1,7 @@
 ## Certifique-se que a porta 3000 não está sendo usada por outro serviço
 
-## Instale as Dependências
+## Instale as dependências e inicie a aplicação
 #### npm install
-
-## Inicie a Aplicação:
 #### npm start
 
 ## URLs
